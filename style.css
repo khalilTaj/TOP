@@ -1,0 +1,22 @@
+#list, #orderList {
+    color: rgb(199, 184, 53);
+}
+
+.header.sub {
+    font-size: 24px;
+}
+
+.header.sub {
+    color: midnightblue;
+}
+
+#text {
+    font-family: serif;
+    font-weight: 950;
+    color: green;
+
+}
+
+#box {
+    text-align: center;
+}
