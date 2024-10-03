@@ -1,0 +1,27 @@
+*{
+    font-size: 18px;
+}
+
+.extraBold {
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.smaller { 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#confirm {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#cancel {
+    background-color: white;
+}
+
+.thinText {
+    font-weight: lighter;
+}
