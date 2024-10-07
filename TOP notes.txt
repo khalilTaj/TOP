@@ -5,3 +5,9 @@ In css we do multi class/id styling like this:
     whatever they have: inCommon;
 }
 
+
+<!-- in the inspect element -->
+Ctrl + F to search
+Esc to open concole, $0 to edit the selected line.
+dir ($0) to viwe in opject format
+viwe pervious notes $1
