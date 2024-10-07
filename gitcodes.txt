@@ -1,0 +1,7 @@
+get commit -m "commit here"
+
+In css we do multi class/id styling like this:
+.class1, class2, id3 {
+    whatever they have: inCommon;
+}
+
