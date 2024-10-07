@@ -32,3 +32,8 @@
 .redSelect {
     color: red;
 }
+
+.biggish, .boldish {
+    font-size: 36px;
+    font-weight: bolder;
+}
