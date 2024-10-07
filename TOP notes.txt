@@ -11,3 +11,8 @@ Ctrl + F to search
 Esc to open concole, $0 to edit the selected line.
 dir ($0) to viwe in opject format
 viwe pervious notes $1
+
+<!-- Padding, margin, and border -->
+padding increases the space between the border of a box and the content of the box.
+border adds space (even if it’s only a pixel or two) between the margin and the padding.
+margin increases the space between the borders of a box and the borders of adjacent boxes.
