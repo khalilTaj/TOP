@@ -16,5 +16,15 @@ viwe pervious notes $1
 padding increases the space between the border of a box and the content of the box.
 border adds space (even if it’s only a pixel or two) between the margin and the padding.
 margin increases the space between the borders of a box and the borders of adjacent boxes.
+Collapse margins work only with margins taht are on top of each other (line 29:37 boxStyle) ending up total margins = biggest margin value
+
+<!--  box-sizing: border-box vs  box-sizing: content-box --> (line 21:37 boxStyle)
 box-sizing: border-box; 
 This forces the browser to display he contents as the width and height state
+border-box will make the element the set size you sit it to adding padding won't add to the overall size of the element
+if width 700 and height 500 
+border box means that that the whole element's max dimensions will be 700*500
+if content box means that only the content will be 700*500 anything else will increases the dimensions
+
+<!-- Negative margins --> (line 39:41 boxStyle | line 22:25 boxModel)
+they pull stuff closer instead of making room

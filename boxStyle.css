@@ -17,3 +17,25 @@
 .box3 {
     border: 20px solid grey;
 }
+
+.box {
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    /* margin: 20px; */
+    border: 5px solid green;
+}
+
+.content {
+    box-sizing: content-box;
+    margin: 0 0 15px 0;
+}
+
+.border {
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+}
+
+.contanier {
+    margin: -100px 0 0 0;
+}
