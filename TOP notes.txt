@@ -16,3 +16,5 @@ viwe pervious notes $1
 padding increases the space between the border of a box and the content of the box.
 border adds space (even if it’s only a pixel or two) between the margin and the padding.
 margin increases the space between the borders of a box and the borders of adjacent boxes.
+box-sizing: border-box; 
+This forces the browser to display he contents as the width and height state
