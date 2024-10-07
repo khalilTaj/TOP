@@ -1,0 +1,19 @@
+* {
+    outline: 2px solid red;
+}
+
+.box1 {
+    padding: 20px;
+}
+
+.box2 {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    /* box-sizing: border-box; */
+    /* This forces the browser to display he contents as the width and height state */
+}
+
+.box3 {
+    border: 20px solid grey;
+}
