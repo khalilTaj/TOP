@@ -5,20 +5,26 @@
 }
 
 div {
-    border: 1px solid red;
+    border: 3px solid ;
 }
 
 #div1 {
     margin: 12px;
+    background-color: pink;
+    border-color: blue;
 }
 
 #div2 {
     margin: 0 0 48px 0;
+    background-color: lightblue;
+    border-color: purple;
 }
 
 #div3 {
     width: 50%;
     margin: 0 0 0 50%;
+    background-color: peachpuff;
+    border-color: brown;
 }
 
 #div1, #div3 {
