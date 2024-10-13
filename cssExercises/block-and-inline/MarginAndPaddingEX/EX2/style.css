@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.common {
+    background-color:  #e3f4ff;
+    margin: 8px;
+    padding: 16px 8px 16px 8px;
+    font-size: 16px;
+}
+
+.card {
+    font-weight: bold;
+}
+
+.center {
+
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-left: 47.5%;
+    padding: 8px;
+    background-color: white;
+}
