@@ -1,0 +1,9 @@
+.inline {
+    /* default is display: block; */
+    display: inline;
+}
+
+.block {
+    /* default display: inline; */
+    display: block;
+}
