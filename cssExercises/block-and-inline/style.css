@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    border: 1px solid red;
+}
+
+#div1 {
+    margin: 12px;
+}
+
+#div2 {
+    margin: 0 0 48px 0;
+}
+
+#div3 {
+    width: 50%;
+    margin: 0 0 0 50%;
+}
+
+#div1, #div3 {
+    padding: 32px;
+
+}
