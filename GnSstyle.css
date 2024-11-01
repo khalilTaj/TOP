@@ -1,5 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    border: 2px red solid;
+    border: 2px brown solid;
 }
+
+/* grow example */
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.container div {
+    flex: 1;
+}
+
+.container .body {
+    flex: 3;
+}
+

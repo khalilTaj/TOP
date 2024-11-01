@@ -33,3 +33,5 @@ they pull stuff closer instead of making room
 Flex is a shorthand for Flex-grow/shrink/basis
 Flex: 1; = Flex 1/1/0
 `flex: ;` is only for child while `display: flex;` is for parent
+
+Grow html line 10-15 & css line 7-20
