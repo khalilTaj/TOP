@@ -28,3 +28,7 @@ if content box means that only the content will be 700*500 anything else will in
 
 <!-- Negative margins --> (line 39:41 boxStyle | line 22:25 boxModel)
 they pull stuff closer instead of making room
+
+<!-- Flex grow and shirnk -->
+Flex is a shorthand for Flex-grow/shrink/basis
+Flex: 1; = Flex 1/1/0
