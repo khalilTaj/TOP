@@ -35,3 +35,8 @@ Flex: 1; = Flex 1/1/0
 `flex: ;` is only for child while `display: flex;` is for parent
 
 Grow html line 10-15 & css line 7-20
+
+shrink html line 17-22 & css line 22-24 
+shrinks element equally to fit the container if 1
+if shrink value = 0 it won't shrink
+if shrink value > 1 it will shrink more 
