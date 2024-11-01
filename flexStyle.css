@@ -1,0 +1,21 @@
+* {
+    border: 2px solid brown;
+    background-color: peachpuff;
+    margin: 0px;
+    font-size: 24;
+}
+
+.item {
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    border: 3px green solid;
+}
+
+.smallBox {
+    border: 2px red solid;
+}
+
