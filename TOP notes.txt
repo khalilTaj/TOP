@@ -42,3 +42,8 @@ if shrink value = 0 it won't shrink
 if shrink value > 0 it will shrink more 
 
 flex basis is when will the shrink and grow start, if 0 then as soon as you type, if auto it will be the set height/width you set.
+
+<!-- Alignment -->
+AlignmentStyle.css line 12&13
+justify-content: center; in the X axes
+align-items: center; in the Y axes
