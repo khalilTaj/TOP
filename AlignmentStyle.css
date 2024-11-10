@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     border: 3px solid red;
-    justify-content: space-between;
+    justify-content: center;
 }
  
 .itme {
