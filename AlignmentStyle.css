@@ -9,11 +9,12 @@
     width: 100%;
     display: flex;
     border: 3px solid red;
+    justify-content: space-between;
 }
  
 .itme {
     height: 50px;
     width: 50px;
     border: 2px blue solid;
-    flex: 1;
+    /* flex: 1; */
 }
