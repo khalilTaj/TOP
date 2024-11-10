@@ -5,25 +5,46 @@
     font-size: 36px;
 }
 
-.container {
-    padding: 8px;
+.header {
     display: flex;
-    height: 65px;
+    padding: 8px;
+    /* gap: 18px; */
+    height: 80px;
     justify-content: space-between;
+}
+
+.ls {
+    display: flex;
+    gap: 18px;
 }
 
 .logo {
     margin: auto;
 }
 
-.Ls {
-    width: auto;
+ul {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 18px;
 }
 
-.Ls div {
-    display: inline;
+li {
     margin: auto;
 }
+
+.rightPart {
+    display: flex;
+    gap: 18px;
+    /* margin-left: auto; */
+    
+}
+
+.rightPart div {
+    margin: auto;
+}
+
+/* .profile {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+} */
