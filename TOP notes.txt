@@ -47,3 +47,5 @@ flex basis is when will the shrink and grow start, if 0 then as soon as you type
 AlignmentStyle.css line 12&13
 justify-content: center; in the X axes
 align-items: center; in the Y axes
+
+box-shadow: 10px 10px 15px darkgray; = howFarTheShadow howBigIsIt howHazzyItIs itsColor
