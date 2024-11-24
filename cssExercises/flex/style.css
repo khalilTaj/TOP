@@ -67,3 +67,37 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* soulution */
+
+
+*{
+  /* border: 3px red solid; */
+}
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.head {
+  display: flex;
+}
+
+.close-button {
+  margin-left: auto;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.text {
+  padding: 5px;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: larger;
+}
