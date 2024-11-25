@@ -69,7 +69,11 @@ body {
 }
 
 .sidebar li {
-  padding: 16px;
+  margin-bottom: 16px; /* better spacing for the sidebar list */
+}
+
+.sidebar ul {
+  list-style-type: none; /* changed nothing but was in the solution */
 }
 
 .sidebar a {
