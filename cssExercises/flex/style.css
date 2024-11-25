@@ -27,3 +27,37 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* fix */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 3px red solid;
+}
+
+.header {
+  font-size: 36px;
+  font-weight: 900;
+  padding-left: 16px;
+  display: flex;
+}
+
+.header div {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer div {
+  margin: auto;
+  font-weight: bold;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
