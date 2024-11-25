@@ -33,7 +33,12 @@ body {
 * {
   padding: 0;
   margin: 0;
-  border: 3px red solid;
+  /* border: 3px red solid; */
+}
+
+body {
+   display: flex;
+   flex-direction: column;
 }
 
 .header {
@@ -57,7 +62,35 @@ body {
   font-weight: bold;
 }
 
+.sidebar {
+  flex-shrink: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.sidebar li {
+  padding: 16px;
+}
+
 .sidebar a {
   text-decoration: none;
   color: inherit;
 }
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.cards {
+  display: flex;
+  padding: 48px;
+  gap: 25px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 320px;
+}
+
