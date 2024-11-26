@@ -1,0 +1,1 @@
+Print in console use --> console.log("hello world") 
