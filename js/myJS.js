@@ -40,3 +40,25 @@ let _ = 1;
 // let return = 4; --> shows an error 'return' cant be a var
 // let let = 5; --> shows an error can't have 'let' as a var
 num = 5; //works jsut fine
+
+// the % aka modulus operator use is dividing the numbers to int and gives the remaing example
+
+let x = 10 % 5; // should show 0 cuz 10/5 = 2 which is a full int
+let z = 10 % 3; // should show 1 cuz 10 have 3 sets of 3s and then a 1 would be left
+let y = 10 % 4; // should show 2 cuz 10 have 2 sets of 4 leaving 2
+
+// Increment ++ and Decrement -- Operators 
+
+let A = 5;
+let B = 5;
+
+// this will add 1, subtract 1 then print
+console.log("operator before the var = ",++A, --B);
+console.log("value of the var now = ",A, B);
+
+// this will print then add 1, subtract 1
+let C = 5;
+let D = 5;
+
+console.log("operator afer the var = ",C++, D--);
+console.log("value of the var now = ",C, D);
