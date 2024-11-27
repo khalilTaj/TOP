@@ -62,3 +62,22 @@ let D = 5;
 
 console.log("operator afer the var = ",C++, D--);
 console.log("value of the var now = ",C, D);
+
+// Numbers as objects
+
+let Num = 123;
+let number = new Number(123);
+console.log(typeof Num);
+console.log(typeof number);
+
+let Q = 500;
+let W = new Number(500);
+let check = Q == W; // == checks if q and w are equal (here it will show true)
+console.log("2 number ojbects W and Q are equal? ", W == Q); //shows false 
+console.log("2 number ojbects W and Q are NOT equal? ", W === Q); //shows false
+
+let E = 500;
+let R = new Number(500);
+let is = E === R; // === checls if e amd r are NOT equal (here it will show false)
+
+let what = R == W; // those 2 are bojects and are not equal
