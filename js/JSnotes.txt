@@ -1,1 +1,12 @@
+MUST USE `;` AT THE END OF EVERY LINE
 Print in console use --> console.log("hello world") 
+Var --> let "var name" = "the actual thing you want the var to be valued with"
+
+re-assigning happens when :
+    `let age = 11
+    console.log(age)
+    age = 54
+    console.log(age)`
+first `let age = 11` sets the word "age" as a varuable, so that you don't have to use `let` again.
+for you to fix a var you use `const` instead of `let` therfore the var will have a fixed value and when changing it with `var = ` it will show an error.
+there is a var tha is called `var` works like `let` but is'nt longer used, but you can find it in onled code
