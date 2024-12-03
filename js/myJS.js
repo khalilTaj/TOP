@@ -81,3 +81,22 @@ let R = new Number(500);
 let is = E === R; // === checls if e amd r are NOT equal (here it will show false)
 
 let what = R == W; // those 2 are bojects and are not equal
+
+console.log(10 + 7, 9 * 8, 60 % 3);
+
+const num1 = 10;
+const num2 = 50;
+9 * num1;
+num1 ** 3;
+num2 / num1;
+
+console.log(9*num1, num1 ** 3, num2/num1);
+
+let f = num1 + num2 / 8+2; // this line follows the traditonal math rule so * > / > + > -
+// console.log(f);
+
+let jeff = 5;
+
+jeff /= 4;
+
+let Tjeff = typeof(jeff);
