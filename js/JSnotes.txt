@@ -33,3 +33,5 @@ z === a; //true
 math works noramlly between number X number and object X number, BUT math doesn't math with object X object it will always be flase in case of ==
 
 alert() in js is used to how the pop-up in the top of the page, myJS.js line 104
+
+diffrence between `` and "" is that in `` (Backticks) you can use varuables within the string using ${var} unlike regural quotaions "" or '', nyJS.js line 108 & 109

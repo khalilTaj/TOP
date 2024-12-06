@@ -102,3 +102,8 @@ jeff /= 4;
 let Tjeff = typeof(jeff);
 
 // alert("i finally learned how to do that")
+
+let me = "khalil"
+
+console.log("it is me, ${me}") // regural string
+console.log(`it is me, ${me}`) // can use vars
