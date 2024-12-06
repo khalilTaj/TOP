@@ -100,3 +100,5 @@ let jeff = 5;
 jeff /= 4;
 
 let Tjeff = typeof(jeff);
+
+// alert("i finally learned how to do that")
