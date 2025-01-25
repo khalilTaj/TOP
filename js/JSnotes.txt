@@ -37,3 +37,5 @@ alert() in js is used to how the pop-up in the top of the page, myJS.js line 104
 diffrence between `` and "" is that in `` (Backticks) you can use varuables within the string using ${var} unlike regural quotaions "" or '', nyJS.js line 108 & 109
 
 \n within any quotaions to start a new line. while to just press enter and start a new line you need to use Backticks ``. lines 111:117
+
+usining \ before anything within a string will force js to read it as strin. line 119:121

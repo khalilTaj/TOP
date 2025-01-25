@@ -115,3 +115,7 @@ today is a very nice day!`);
 const day = `Hello world,
 today is a very nice day!`;
 console.log(day)
+
+// force string recognation
+const string = "\"hello world\" is a famouse sentence between programmers."
+console.log(string)
