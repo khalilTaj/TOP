@@ -107,3 +107,11 @@ let me = "khalil"
 
 console.log("it is me, ${me}") // regural string
 console.log(`it is me, ${me}`) // can use vars
+
+// multi-line strings
+console.log("Hello world,\ntoday is a very nice day!");
+console.log(`Hello world
+today is a very nice day!`);
+const day = `Hello world,
+today is a very nice day!`;
+console.log(day)
