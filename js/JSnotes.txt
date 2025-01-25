@@ -39,3 +39,5 @@ diffrence between `` and "" is that in `` (Backticks) you can use varuables with
 \n within any quotaions to start a new line. while to just press enter and start a new line you need to use Backticks ``. lines 111:117
 
 usining \ before anything within a string will force js to read it as strin. line 119:121
+
+using Number() to turn string to num and use String() to a num to string. line 123:130

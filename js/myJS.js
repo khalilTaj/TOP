@@ -119,3 +119,12 @@ console.log(day)
 // force string recognation
 const string = "\"hello world\" is a famouse sentence between programmers."
 console.log(string)
+
+// string to num and num to string
+const myNum = 123;
+const myString = String(myNum);
+console.log(typeof(myString));
+
+const isString = "123";
+const toNum = Number(isString);
+console.log(typeof(toNum));
