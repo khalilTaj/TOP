@@ -128,3 +128,18 @@ console.log(typeof(myString));
 const isString = "123";
 const toNum = Number(isString);
 console.log(typeof(toNum));
+
+// comaparing str-str & num-num & strict equality
+// alert( 'Z' > 'A' ); //* A is the smallest Z is the biggest
+
+let math = 5 < 8;
+// alert(math);
+
+let stuff = a < f;
+// alert(stuff);
+
+let F = 0;
+let T = 1;
+
+// alert(F === "") //* strict equality
+// alert(F == " ") //* regual equality

@@ -43,3 +43,5 @@ usining \ before anything within a string will force js to read it as strin. lin
 using Number() to turn string to num and use String() to a num to string. line 123:130
 
 everything string methods (https://www.w3schools.com/js/js_string_methods.asp#mark_charat) & (https://www.w3schools.com/jsref/jsref_obj_string.asp)
+
+Comaparing, equality, and strict equality (https://javascript.info/comparison). line 132:145
