@@ -52,3 +52,44 @@ else if (weather < 35) {
 else {
     console.log("just turn on the AC at this point")
 }
+
+//! switch
+//* switch works somewhat boolean based case to case bases
+/*
+switch(expression) {
+  case x: the x refers to the vlaue of the expression
+    code block
+    break;
+  case y:
+    code block
+    break;
+  default:
+    code block
+}
+*/
+
+
+let day = 1;
+
+switch (day){ // the expression is the value between the brackets which can be anything
+    case 0: // the value after case is the value of the expression
+        console.log("day is friday");
+        break;
+    case 1:
+        console.log("day is not friday");
+        break;
+    default:
+        console.log("idk why it is not working")
+}
+
+//* multi case to the same output
+
+switch (day) {
+    case 0:
+    case 1:
+        console.log("day is friday");
+        break;
+    default:
+        console.log("day is idk");
+        break;
+}
