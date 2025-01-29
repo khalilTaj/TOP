@@ -45,3 +45,5 @@ using Number() to turn string to num and use String() to a num to string. line 1
 everything string methods (https://www.w3schools.com/js/js_string_methods.asp#mark_charat) & (https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
 Comaparing, equality, and strict equality (https://javascript.info/comparison). line 132:145
+
+comments in js are 2 types single line with // or multi line with /* */ just like html.
