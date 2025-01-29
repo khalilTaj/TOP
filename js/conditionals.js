@@ -93,3 +93,29 @@ switch (day) {
         console.log("day is idk");
         break;
 }
+
+//! Ternary Operator
+//* Ternary is a short for an if statment
+/*
+condition ? true : false;
+if the condtions is true
+*/
+
+let gender = "male";
+const sex = gender = "male" ? "sir" : "ma'am";
+/*
+you don't have to make it into a varuable, could be like this:
+let gender = "male";
+gender = "male" ? console.log("sir") : console.log("ma'am");
+*/
+console.log(sex); // document.write(sex); is used to write in the html page not the console
+
+//* Ternary for an if else statment (nested)
+/* 
+condition 1 ? true : condition 2 ? true : condition 3 ? true : false;
+this can go forvever
+*/
+
+let age = 21;
+
+age == 20 ? console.log("age is 20") : age > 20 && age < 40 ? console.log("between 20 and 40 years old") : age >40 && age < 60 ? console.log("between 40 and 60 years old") : console.log("elder person");
