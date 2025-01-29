@@ -32,3 +32,23 @@ else {
     alert("BIG ERROR BOO");
 }
 
+//! nesting if Statments
+//* if statmnet inside if statment
+
+let weather = 35;
+let time = "day";
+
+if (weather == 35) {
+    if (time == "day") {
+        console.log("have icecream")
+    }
+    else {
+        console.log("have soda")
+    }
+}
+else if (weather < 35) {
+    console.log("it is too cold for a cold snack, try hot coco")
+}
+else {
+    console.log("just turn on the AC at this point")
+}
