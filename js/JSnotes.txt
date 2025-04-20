@@ -47,3 +47,5 @@ everything string methods (https://www.w3schools.com/js/js_string_methods.asp#ma
 Comaparing, equality, and strict equality (https://javascript.info/comparison). line 132:145
 
 comments in js are 2 types single line with // or multi line with /* */ just like html.
+
+String to Int myJS.js lines 153:155

@@ -143,3 +143,13 @@ let T = 1;
 
 // alert(F === "") //* strict equality
 // alert(F == " ") //* regual equality
+
+//! String to Int
+
+console.log("String to Int");
+
+let NUM = "9";
+
+console.log(typeof NUM);
+parseInt(NUM);
+console.log(typeof parseInt(NUM));
