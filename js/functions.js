@@ -33,3 +33,11 @@ function txt (name, message = "Message not found") {
 };
 
 console.log(txt("John")); //* this shows "John : Message not founf" which is the new defult value which can be another function or var
+
+// function expression
+
+let sayHi = function() {
+  console.log( "Hello" ); //* to call thsi funtion we use the var name which is "sayHi"
+};
+
+sayHi()

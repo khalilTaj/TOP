@@ -49,3 +49,5 @@ Comaparing, equality, and strict equality (https://javascript.info/comparison). 
 comments in js are 2 types single line with // or multi line with /* */ just like html.
 
 String to Int myJS.js lines 153:155
+
+function expression is a differenet way to write a function that does not require a name for the function. function.js lines 37-43
