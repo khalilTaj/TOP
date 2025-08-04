@@ -51,3 +51,5 @@ comments in js are 2 types single line with // or multi line with /* */ just lik
 String to Int myJS.js lines 153:155
 
 function expression is a differenet way to write a function that does not require a name for the function. function.js lines 37-43
+
+for functions without an argumnet you must use the var name with () after it, function.js lines 56-60

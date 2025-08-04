@@ -41,3 +41,33 @@ let sayHi = function() {
 };
 
 sayHi()
+
+// arrow function
+
+function Sum(number1, number2){
+    return number1 + number2;
+}; //* being the normal syntex for a function
+
+let sum = (number1, number2) => number1 + number2; //* this is the arrow syntex function
+//* both of shem do the same thing but arrow functions saves sapce and easier to read
+
+//! this also can be used for argumentless functions
+
+let greating = function (){alert("hi")}; //* for regural funtion syntex
+let greatings = () => (alert("hi")); //* arrow syntex
+
+// alert(greating());
+// alert(greatings());
+
+//* to write a long funtion with the arrow syntex you will need to use curly barckets and a refturn function
+
+/* let add2 = (n) => {
+    return(n + 2);
+}; */
+
+//! alteretive 
+
+let add2 = (n) => {
+    let result = n + 2;
+    return(result)
+}; //* better to keep it a oneliner if the function is that simple 
