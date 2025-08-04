@@ -71,3 +71,25 @@ let add2 = (n) => {
     let result = n + 2;
     return(result)
 }; //* better to keep it a oneliner if the function is that simple 
+
+// function assignmets 
+
+let add7 = (n) => n+7;
+console.log(add7(1));
+
+let multiply = (n1, n2) => n1 * n2;
+console.log(multiply(2,2));
+
+function capitalize(Word){
+    let lower = Word.toLowerCase();
+    let cap = lower.charAt(0).toUpperCase() + lower.slice(1);
+    return(cap);
+    //* .chartAt() picks the number of the letter to only run a fucntion on
+    //* .slice() tells where to write the rest of the texts from | here it will start from the second letter
+};
+
+function lastLetter (word){
+    let last_letter = word.slice(-1);
+    return(last_letter);
+    //* .slice() tells where to write the rest of the texts from | here it will start from the last letter
+};
