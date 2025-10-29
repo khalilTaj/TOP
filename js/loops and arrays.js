@@ -35,3 +35,19 @@ let counter = function(){
 };
 
 console.log(counter());
+
+// break in loops
+//* the break is used to stop the loop once the desired outcome is reached
+//* we will use the past counter statment for easier example 
+
+let counter6 = function(){
+  for (let n = 1; n < 10 || n == 10; n++){
+    //* for has 3 declarations within it for(initializer; condistion; what to do after 1 cycle aka final experssion)
+    console.log(n, " times");
+    if (n == 6){
+      console.log("counter reached number 6")
+      break; //* break must be in the if statment 
+    };
+    };
+};
+console.log(counter6());
