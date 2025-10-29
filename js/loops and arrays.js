@@ -51,3 +51,19 @@ let counter6 = function(){
     };
 };
 console.log(counter6());
+
+// continue in loops
+//* continue will keep the loop running 
+
+let Numb = 10;
+
+function even () {
+  for (i = 1 ; i <= Numb ; i++){
+    if (i % 2 === 1){
+      continue;
+    };
+    console.log(`${i} is even`);
+  };
+};
+
+console.log(even());
