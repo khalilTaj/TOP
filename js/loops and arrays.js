@@ -82,3 +82,15 @@ function numberChecker (){
 }
 
 console.log(numberChecker())
+
+// do while loops
+//* this loop runs the code then checks if the condtion is met, if yes the code will work if not it will be idle
+
+let count = 1;
+
+do {
+  if (count % 2 === 0){
+    console.log(`${count} is even`)
+  }
+  count++;
+} while (count <= Numb);
