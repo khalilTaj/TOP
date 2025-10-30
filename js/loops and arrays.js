@@ -50,7 +50,7 @@ let counter6 = function(){
     };
     };
 };
-console.log(counter6());
+// console.log(counter6());
 
 // continue in loops
 //* continue will keep the loop running 
@@ -67,3 +67,21 @@ function even () {
 };
 
 console.log(even());
+
+// while loops
+//* I will turn the past even function into a while loop
+
+let I = 1;
+function numberChecker (){
+  while (I <= Numb){
+    if (I % 2 === 0){ //! Error this shows even while `i %2 === 1` also shows even
+        console.log(`${I} is even`); 
+      }
+      else if (I == 100) {
+        break
+      }
+    I++;
+  }
+}
+
+console.log(numberChecker())
