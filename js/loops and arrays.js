@@ -60,7 +60,7 @@ let Numb = 10;
 function even () {
   for (i = 1 ; i <= Numb ; i++){
     if (i % 2 === 1){
-      continue;
+      continue; //* this skipps the odd number, it says "if you find a number that % 2 === 1 skip it and continue"
     };
     console.log(`${i} is even`);
   };
@@ -74,11 +74,8 @@ console.log(even());
 let I = 1;
 function numberChecker (){
   while (I <= Numb){
-    if (I % 2 === 0){ //! Error this shows even while `i %2 === 1` also shows even
+    if (I % 2 === 0){ //* this says "if you find I % 2 === o therefore even, print it"
         console.log(`${I} is even`); 
-      }
-      else if (I == 100) {
-        break
       }
     I++;
   }
